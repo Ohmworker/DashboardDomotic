@@ -36,7 +36,7 @@
                         <div class="row">
                             <div class="col">
                                 <section class="card">
-                                    <div class="card-body text-secondary">Tension Enedis<br /><h3><label id="tensionEnedis">0</label> V</h3></div>
+                                    <div class="card-body text-secondary">Tension<br /><h3><label id="tensionEnedis">0</label> V</h3></div>
                                 </section>
                             </div>
                             <div class="col">
