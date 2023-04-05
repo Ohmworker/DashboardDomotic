@@ -15,7 +15,7 @@ function executerPuissance(callback) {
 var flux = [];
         
 function affichagePuissance() {
-    document.getElementById("Puissance").innerHTML = flux.Maison.puissance;
+    document.getElementById("Puissance").innerHTML = (flux.Maison.puissance/1000).toFixed(2);
 }
 
 executerPuissance(affichagePuissance);
