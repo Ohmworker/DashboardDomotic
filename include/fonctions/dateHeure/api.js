@@ -15,7 +15,6 @@ function executerDateHeureGET(callback) {
 var flux = [];
         
 function affichageDateHeure() {
-    document.getElementById("dateJour").innerHTML = flux.Date;
     document.getElementById("heureJour").innerHTML = flux.Heure;
 }
 
