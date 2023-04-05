@@ -24,12 +24,24 @@
                         <div class="row">
                             <div class="col">
                                 <section class="card">
-                                    <div class="card-body text-secondary">Température<br /><h3><label id="sondeTemperature">15</label> °C</h3></div>
+                                    <div class="card-body text-secondary">Chambre<br /><h3><label id="sondeTemperature">15</label> °C</h3></div>
                                 </section>
                             </div>
                             <div class="col">
                                 <section class="card">
                                     <div class="card-body text-secondary">Energie<br /><h3><label id="Puissance">0</label> kW</h3></div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <section class="card">
+                                    <div class="card-body text-secondary">Tension Enedis<br /><h3><label id="Tension">0</label> V</h3></div>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section class="card">
+                                    <div class="card-body text-secondary">Flag RTE<br /><h3><label id="Tempo">?</label></h3></div>
                                 </section>
                             </div>
                         </div>
