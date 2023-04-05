@@ -29,7 +29,7 @@
                             </div>
                             <div class="col">
                                 <section class="card">
-                                    <div class="card-body text-secondary">Energie<br /><h3><label id="Puissance">0</label> W</h3></div>
+                                    <div class="card-body text-secondary">Energie<br /><h3><label id="Puissance">0</label> kW</h3></div>
                                 </section>
                             </div>
                         </div>
