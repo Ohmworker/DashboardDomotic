@@ -24,7 +24,7 @@
                         <div class="row">
                             <div class="col">
                                 <section class="card">
-                                    <div class="card-body text-secondary">Température<br /><h3><label id = "temperatureMaison">15</label><small style="font-size: 30px;position: relative;top: -12px;"> °</small>C</h3></div>
+                                    <div class="card-body text-secondary">Température<br /><h3><label id="sondeTemperature">15</label>°C</h3></div>
                                 </section>
                             </div>
                             <div class="col">
