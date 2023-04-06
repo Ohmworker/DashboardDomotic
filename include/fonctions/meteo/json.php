@@ -64,9 +64,10 @@
 
 	$flux['temperature'] = $tab['current_weather']['temperature'];
 	$flux['ventVitesse'] = $tab['current_weather']['windspeed'];
+	$flux['codeMeteo'] = $tab['current_weather']['weathercode'];
 	$code = $tab['current_weather']['weathercode'];
 	$flux['ventDirection'] = $traduction_weather[$code];
-	$flux['tab'] = $tab;
+	$flux['FullData'] = $tab;
 
 	echo json_encode($flux);
 ?>
