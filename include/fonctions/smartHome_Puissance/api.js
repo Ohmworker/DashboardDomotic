@@ -19,4 +19,4 @@ function affichagePuissance() {
 }
 
 executerPuissance(affichagePuissance);
-var interval = setInterval(function() { executerPuissance(affichagePuissance);}, 20000);
+var interval = setInterval(function() { executerPuissance(affichagePuissance);}, 3000);
