@@ -66,6 +66,7 @@
 	$flux['ventVitesse'] = $tab['current_weather']['windspeed'];
 	$code = $tab['current_weather']['weathercode'];
 	$flux['ventDirection'] = $traduction_weather[$code];
+	$flux['tab'] = $tab;
 
 	echo json_encode($flux);
 ?>
