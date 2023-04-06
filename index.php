@@ -48,8 +48,8 @@
                         <div class="row">
                             <div class="col">
                                 <section class="card">
-                                    <div class="card-body text-secondary">Météo à Dainville<br /><h3><label id="meteoTemperature"></label> <label id="meteoFormat"></label>
-                                        <br /><label id="meteoVentVitesse"></label> <label id="meteoVentDirection"></label></h3></div>
+                                    <div class="card-body text-secondary">Météo à Dainville<br /><h3><label id="meteoTemperature"></label> <label id="meteoFormat"></label></h3>
+                                        <br /><h4><label id="meteoVentVitesse"></label> <label id="meteoVentDirection"></label></h4></div>
                                 </section>
                             </div>
                         </div>
