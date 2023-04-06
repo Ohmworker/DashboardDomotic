@@ -23,4 +23,4 @@ function affichageMeteoIndex() {
 }
 
 executerMeteoAPI(affichageMeteoIndex);
-var interval = setInterval(function() { executerMeteoAPI(affichageMeteoIndex);}, 5000);
+var interval = setInterval(function() { executerMeteoAPI(affichageMeteoIndex);}, 60000);
