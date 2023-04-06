@@ -3,7 +3,6 @@ function executerDateHeureGET(callback) {
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
             flux = JSON.parse(xhr.responseText);
-            console.log(flux)
             callback();
         }
     }
